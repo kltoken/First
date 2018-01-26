@@ -1,3 +1,5 @@
 function(){
-	
+	$('#div').click(function(){
+		
+	})
 }
