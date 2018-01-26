@@ -1,5 +1,5 @@
 function(){
-	$('#div').click(function(){
-		
+	$('#div').mouseDown(function(){
+
 	})
 }
