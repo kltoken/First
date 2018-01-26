@@ -15,7 +15,7 @@ $(function(){
 
 			var topVal = ev.pageY-disY<0 ? 0 :
 				( ev.pageY-disY > topLimit ) ? topLimit : ev.pageY-disY;
-			// console.dir(window)
+				
 			_this.offset({left:leftVal,top:topVal});
 
 			$(document).mouseup(function(ev){
